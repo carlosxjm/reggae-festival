@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Primeiro Festival Reggae</title>
+</head>
+<body>
+  <header class="main-header">
+    <div class="content">
+      <h1>The Sun Reggae Festival</h1>
+    </div>
+  </header>
+
+  <section class="section-tickets">
+    <h2 class="section-title">Ingressos</h2>
+    <div class="content">
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Tenetur quos sunt maxime ducimus rerum voluptatibus? Nulla
+        ipsa cupiditate quas optio architecto aperiam, dolores assumenda
+        et earum aliquam eius exercitationem praesentium.
+      </p>
+      <p>
+        Coloca o capacete e olha a pedra!
+      </p>
+  
+      <a href="http://" target="_blank">Garanta o seu!</a>
+    </div>
+    <img src="https://i.pinimg.com/originals/78/18/e7/7818e7c4e0554eda5c54ca43f0368125.gif" alt="Homem dançando reggae">
+  </section>
+
+  <hr class="reggae-border" />
+
+  <section class="section-schedule">
+    <h2 class="section-title">Atrações</h2>
+    <div class="content">
+      <div class="schedule-day">
+        <h3>Dia 1</h3>
+        <ul>
+          <li>Bob Marley</li>
+          <li>Peter Tosh</li>
+          <li>Albarosie</li>
+        </ul>
+      </div>
+      <div class="schedule-day">
+        <h3>Dia 2</h3>
+        <ul>
+          <li>DJ. Cleiton Rasta</li>
+          <li>Edson Gomes</li>
+          <li>Burning Spear</li>
+        </ul>
+      </div>
+      <div class="schedule-day">
+        <h3>Dia 3</h3>
+        <ul>
+          <li>Max Romeo</li>
+          <li>Max Romeo</li>
+          <li>Max Romeo</li>
+          <li>Ponto de Equilíbrio</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <hr class="reggae-border" />
+
+  <style>
+    /* Reset */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    /* General */
+    section {
+      text-align: center;
+    }
+
+    .content {
+      display: block;
+      width: 800px;
+      margin: 0 auto;
+      max-width: 90%;
+      border: 3px solid red;
+    }
+
+    .section-title {
+      font-size: 50px;
+      margin-top: 0;
+    }
+
+    .reggae-border {
+      width: 100%;
+      height: 10px;
+      border: none;
+      margin: 0;
+      background-image:
+        linear-gradient(
+          to right, 
+          #E65353, 
+          #69C269, 
+          #DDDD41
+        );
+    }
+
+    /* Header */
+    .main-header {
+      border-top: 70px solid #E65353;
+      border-bottom: 70px solid #69C269;
+      background: #DDDD41;
+    }
+
+    .main-header .content {
+      padding: 20px;
+    }
+  
+    .main-header .content h1 {
+      font-size: 70px;
+      width: 460px;
+      margin: 0;
+      text-align: left;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+    
+    /* Tickets */
+    .section-tickets {
+      padding: 60px 0;
+      position: relative;
+      background: #FFF8D2;
+    }
+    
+    .section-tickets .content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .section-tickets p {
+      font-size: 20px;
+    }
+
+    .section-tickets a {
+      border: none;
+      opacity: .7;
+      background: #69C269;
+      color: #000;
+      display: inline-block;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: .3s;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 14px;
+      margin-top: 40px;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.16);
+    }
+
+    .section-tickets a:hover {
+      opacity: 1;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+    }
+
+    .section-tickets img {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: 0;
+      width: 420px;
+    }
+
+    /* Schedule */
+    .section-schedule {
+      padding: 60px 0;
+      background-image: url(images/bg-pattern.png);
+      background-size: 120px;
+      background-position: 0;
+    }
+
+    .section-schedule .section-title {
+      color: #FFF8D2;
+
+    }
+
+    .section-schedule .schedule-day {
+      display: inline-block;
+      vertical-align: top;
+      background: #FFF8D2;
+      border-radius: 5px;
+      width: 30%;
+      margin: 0 10px;
+    }
+
+    .section-schedule .schedule-day ul {
+      padding: 10px 20px;
+      list-style: none;
+      text-align: left;
+    }
+
+    .section-schedule .schedule-day ul li {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  </style>
+</body>
+</html>
